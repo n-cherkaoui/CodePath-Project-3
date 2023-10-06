@@ -16,4 +16,22 @@
   margin: 15px;
   font-size: 20px;
 }
+.guessContainer{
+  display: flex;
+  margin-top: 10px;;
+}
+.guessBox {
+  outline: none;
+  margin: 20px;
+  border: 1px solid #DDDDDD;
+}
+.guessBox:focus {
+  border: 2px solid lightblue;
+}
+#wrong {
+  border-color: red;
+}
+#correct {
+  border-color: green;
+}
 

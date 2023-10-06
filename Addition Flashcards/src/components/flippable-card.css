@@ -4,3 +4,12 @@
   width: 300px;
   perspective: 1000px;
 }
+.prev,.shuffle,.checkAnswer{
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 75px;
+  margin-top: 10px;
+  font-size: 20px;
+}
